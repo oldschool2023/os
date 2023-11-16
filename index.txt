@@ -1,0 +1,12 @@
+aceplays.com.np
+for login
+			<?php if(strlen($_SESSION['login'])==0)
+    {   ?>
+
+
+    welcome msg
+    <?php if(strlen($_SESSION['login']))
+    {   ?>
+				<a href="#"><i class="icon fa fa-user"></i>Welcome -<?php echo htmlentities($_SESSION['username']);?></a>
+				<?php } ?>
+                
